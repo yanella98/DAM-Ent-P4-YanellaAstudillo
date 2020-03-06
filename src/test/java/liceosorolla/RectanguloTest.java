@@ -29,5 +29,10 @@ public class RectanguloTest {
 		assertEquals(72, rectangulo.area());
 	}
 	
+	@Test
+	public void comprobarDiagonal() {
+		assertEquals(13, rectangulo.diagonal());
+	}
+	
 
 }

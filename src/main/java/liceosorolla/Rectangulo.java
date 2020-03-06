@@ -51,5 +51,13 @@ public class Rectangulo {
         return areaTriangulo = lado1 * lado2;
     } 
 	
+	public int diagonal() {
+		int calcularDiagonal;
+		
+		calcularDiagonal= (int) Math.sqrt((Math.pow(this.lado1, 2))+(Math.pow(this.lado2, 2)));
+		
+		return calcularDiagonal;
+	} 
+	
 	
 }
