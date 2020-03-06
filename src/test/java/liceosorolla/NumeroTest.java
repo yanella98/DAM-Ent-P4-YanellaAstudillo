@@ -35,4 +35,14 @@ public class NumeroTest {
 	public void comprobarResta() {
 		assertEquals(0,numero.resta());
 	}
+	
+	@Test
+	public void comprobarMultiplicacion() {
+		assertEquals(25,numero.multiplicar());
+	}
+	
+	@Test
+	public void comprobarDivision() {
+		assertEquals(1,numero.dividir());
+	}
 }

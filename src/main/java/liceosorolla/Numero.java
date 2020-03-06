@@ -30,4 +30,12 @@ public class Numero {
 	public int resta() {
 		return this.numero1-this.numero2;
 	}
+	
+	public int multiplicar() {
+		return this.numero1*this.numero2;
+	}
+	
+	public int dividir() {
+		return this.numero1%this.numero2;
+	}
 }
