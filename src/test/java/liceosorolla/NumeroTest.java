@@ -20,4 +20,14 @@ public class NumeroTest {
 	public void comprobarNumero1() {
 		assertEquals(5,numero.getNumero1());
 	}
+	
+	@Test
+	public void comprobarNumero2() {
+		assertEquals(5,numero.getNumero2());
+	}
+	
+	@Test
+	public void comprobarSuma() {
+		assertEquals(10,numero.suma());
+	}
 }
