@@ -59,5 +59,16 @@ public class Rectangulo {
 		return calcularDiagonal;
 	} 
 	
+
+	public int circunferencia() {
+		int radio;
+		int Menor = this.lado1;
+		
+		if(this.lado2 < this.lado1) {
+			Menor=this.lado2;
+		}
+		return radio = Menor/2;
+			
+	}	
 	
 }

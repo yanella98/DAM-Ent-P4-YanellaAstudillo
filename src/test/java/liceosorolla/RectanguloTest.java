@@ -34,5 +34,10 @@ public class RectanguloTest {
 		assertEquals(13, rectangulo.diagonal());
 	}
 	
+	@Test
+	public void comprobarCircunferencia() {
+		assertEquals(13, rectangulo.circunferencia());
+	}
+	
 
 }
