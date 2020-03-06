@@ -39,4 +39,12 @@ public class Rectangulo {
 		return comprobar;
 	}
 	
+	public int perimetro() {
+		
+		int total;
+		
+		return total = 2*(lado1+lado2);
+	}
+	
+	
 }

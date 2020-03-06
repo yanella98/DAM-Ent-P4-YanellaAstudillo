@@ -18,5 +18,12 @@ public class RectanguloTest {
 	public void comprobaRectangulo() {
 		assertEquals(false, rectangulo.lados());
 	}
+	
+	@Test
+	public void comprobarPerimetro() {
+		assertEquals(36, rectangulo.perimetro());
+	}
+	
+	
 
 }
