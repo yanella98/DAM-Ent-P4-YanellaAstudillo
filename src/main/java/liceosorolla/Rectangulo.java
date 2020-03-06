@@ -46,5 +46,10 @@ public class Rectangulo {
 		return total = 2*(lado1+lado2);
 	}
 	
+	public int area(){
+		int areaTriangulo;
+        return areaTriangulo = lado1 * lado2;
+    } 
+	
 	
 }
