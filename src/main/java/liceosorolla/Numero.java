@@ -44,6 +44,17 @@ public class Numero {
 	}
 	
 	public boolean multiplo() {
-		return 5%5==0;
+		boolean resultado = false;
+		if(this.numero1 >=this.numero2) {
+			if(this.numero1 %this.numero2==0) {
+				resultado = true;
+			}
+		}
+		else {
+			if(this.numero2% this.numero1==0) {
+				resultado = true;
+			}
+		}
+		return resultado;
 	}
 }
