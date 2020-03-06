@@ -36,6 +36,14 @@ public class Numero {
 	}
 	
 	public int dividir() {
-		return this.numero1%this.numero2;
+		return this.numero1/this.numero2;
+	}
+	
+	public int potencia() {
+		return (int) (Math.pow(numero1, numero2));
+	}
+	
+	public boolean multiplo() {
+		return 5%5==0;
 	}
 }

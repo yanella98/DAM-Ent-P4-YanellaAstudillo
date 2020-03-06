@@ -45,4 +45,14 @@ public class NumeroTest {
 	public void comprobarDivision() {
 		assertEquals(1,numero.dividir());
 	}
+	
+	@Test
+	public void comprobarPotencia() {
+		assertEquals(25,numero.potencia());
+	}
+	
+	@Test
+	public void comprobarMultiplo() {
+		assertEquals(true,numero.potencia());
+	}
 }
