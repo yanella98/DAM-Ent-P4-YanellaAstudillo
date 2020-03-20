@@ -48,4 +48,7 @@ public class Animal {
 		this.edad = edad;
 	}
 	
+	public String getColorDePelo() {
+		return colorDePelo;
+	}
 }
