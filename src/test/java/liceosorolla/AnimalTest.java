@@ -23,4 +23,9 @@ public class AnimalTest {
 	public void comprobarRaza() {
 		assertEquals("Lince", animal.getRaza());
 	}
+	
+	@Test
+	public void comprobarPeso() {
+		assertEquals(25, animal.getPeso());
+	}
 }
