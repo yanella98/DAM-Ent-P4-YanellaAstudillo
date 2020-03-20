@@ -28,4 +28,9 @@ public class AnimalTest {
 	public void comprobarPeso() {
 		assertEquals(25, animal.getPeso());
 	}
+	
+	@Test
+	public void comprobarEdad() {
+		assertEquals(5, animal.getEdad());
+	}
 }
