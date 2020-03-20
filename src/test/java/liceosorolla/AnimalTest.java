@@ -18,4 +18,9 @@ public class AnimalTest {
 	public void comprobarEspecie() {
 		assertEquals("Mamifero", animal.getEspecie());
 	}
+	
+	@Test
+	public void comprobarRaza() {
+		assertEquals("Lince", animal.getRaza());
+	}
 }
