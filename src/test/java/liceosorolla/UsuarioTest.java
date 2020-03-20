@@ -40,7 +40,7 @@ private Usuario usuario;
 	
 	@Test
 	public void comprobarNombreMayusculas() {
-		assertEquals("YANELLA",usuario.nombreMayusculas());
+		assertEquals("YANELLA ASTUDILLO ORTIZ",usuario.nombreMayusculas());
 	}
 	
 	@Test
