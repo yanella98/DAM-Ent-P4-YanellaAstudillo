@@ -69,6 +69,6 @@ public class Usuario {
 	}
 	
 	public String nombreMinisculas() {
-		return this.nombre.toLowerCase();
+		return this.nombre.toLowerCase()+" "+this.apellidos.toLowerCase();
 	}
 }

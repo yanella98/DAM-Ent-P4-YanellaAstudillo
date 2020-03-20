@@ -46,6 +46,6 @@ private Usuario usuario;
 	@Test
 	public void compruebaNombreMinusculas() {
 		
-		assertEquals("yanella", usuario.nombreMinisculas());
+		assertEquals("yanella astudillo ortiz", usuario.nombreMinisculas());
 	}
 }
